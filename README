@@ -5,9 +5,17 @@ Spell Book of Code, Book of Shadows
 ~The Code is the Law
 
 All code compiled and/or interpreted
+for examination and decimation.
 */
 
-Code for .c, .pl (Perl), .js (JavaScript), .json, .css, .php, .rb
+Code for compiled .c, .cpp
+
+Code for interpreted  .php , .rb (ruby) .pl (Perl), .js (JavaScript), 
+
+Code for styling .css, .css3
+
+json
+
 
 This is a staging area for all code I am currently analysing 
 independent of code language.
