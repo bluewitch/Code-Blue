@@ -1,0 +1,25 @@
+Clock
+
+Part I: what is the angle between the minute hand and the hour hand at 3:15 on an analog clock? no, its not 0.
+
+Part II: how often does the minute hand pass the hour hand on an analog clock?
+Solution
+
+part I: 12 hours on the clock make 360 deg. so one hour is 30 deg. the hour hand will be directly on the 3 when the minute hand is at 12 (3:00). after 15 minutes or 1/4 of an hour, the hour hand will be 1/4 * 30 deg = 7.5 deg. away from the minute hand.
+
+part II: if you just think about it, intuitively you’ll see the minute hand passes the hour hand 11 times every 12 hours, so it must pass it every 1 1/11 hours. but this doesn’t make sense to me. i need to prove it.
+
+if x is our answer then every x hours, the minute hand and the hour hand will be right on top of each other. every hour the hour hand travels 5 units. so between every time that the minute and the hour hand meet, the hour hand will go 5*x units. every hour the minute hand travels 60 units, so it will have gone 60*x units.
+
+what we’re trying to find is the distance traveled by the minute hand to reach the hour hand, once the minute hand has looped around once. consider its 12:00. both hands in the same position. after an hour, minute hand is on 12, hour hand on 1 (its traveled 5 units). now in the time it takes the minute hand to catch up to the hour hand it will travel a little bit further.
+
+we only need to find x where 5*x = 60*(x-1), since the real distance traveled by the minute hand, from where it started to where it ends, is 60*(x-1). the first hour just puts it back where it started, so we’re only concerned with the extra part it traveled to reach the hour hand.
+
+5x = 60(x-1)
+5x = 60x - 60
+60 = 55x
+60/55 = x
+
+there it is. the answer is 60/55 hours, or every 1 and 1/11 hours.
+
+i apologize that this is horribly confusing, but if you stare at it long enough it will make sense.
