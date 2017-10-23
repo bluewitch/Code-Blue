@@ -1,0 +1,8 @@
+/*JSON Example*/
+{
+"contractors": [
+{ "firstName":"Doug" , "lastName":"Kuhn" },
+{ "firstName":"Alice" , "lastName":"Smith" },
+{ "firstName":"Jessica" , "lastName":"Six" }
+]
+}
